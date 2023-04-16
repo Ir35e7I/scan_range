@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$1" == "" ]; then
-    echo -e "[i] Agrega una dirección ip.\nexample: ./pinger.sh <ipaddress>"
+    echo -e "[i] Agrega una dirección ip.\nexample: ./scan.sh <ipaddress>"
     exit 1
 fi
 
